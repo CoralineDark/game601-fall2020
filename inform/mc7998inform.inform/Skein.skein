@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-1"/>
+  <item nodeId="node-1">
+    <command xml:space="preserve">mc7998inform</command>
+    <result xml:space="preserve">A Walk through the Woods&#x000A;An Interactive Fiction&#x000A;Release 1 / Serial number 201117 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;parking lot&#x000A;It's a beautiful day in the middle of Autumn and you've decided to take a day trip to go hiking deep in the White Mountains of New Hampshire along the Kancamangus Highway. With the leaves slowly falling around you in vibrant shades of red, yellow, and orange, and the air crisp and chilly, you are excited to see that it is peak leaf season. You've parked your car in a small, dirt parking lot and have walked up to the entrance of a small batch of intertwining trails. From the entrance, you see you can either go forward to the north, left to the west, or right to the east. There is also a box at the entrance labled "Map".&#x000A;&#x000A;You can see a box (in which is a map) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-4"/>
+      <child nodeId="node-7"/>
+      <child nodeId="node-34"/>
+      <child nodeId="node-37"/>
+      <child nodeId="node-42"/>
+      <child nodeId="node-47"/>
+      <child nodeId="node-54"/>
+      <child nodeId="node-66"/>
+      <child nodeId="node-72"/>
+      <child nodeId="node-75"/>
+      <child nodeId="node-85"/>
+      <child nodeId="node-115"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">Go north</command>
+    <result xml:space="preserve">Middle Path&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-3"/>
+    </children>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">parking lot&#x000A;It's a beautiful day in the middle of Autumn and you've decided to take a day trip to go hiking deep in the White Mountains of New Hampshire along the Kancamangus Highway. With the leaves slowly falling around you in vibrant shades of red, yellow, and orange, and the air crisp and chilly, you are excited to see that it is peak leaf season. You've parked your car in a small, dirt parking lot and have walked up to the entrance of a small batch of intertwining trails. From the entrance, you see you can either go forward to the north, left to the west, or right to the east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">Go left</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Left Path&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">river&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Left Path&#x000A;You walk into the western most trail in the area and see that you are surrounded by many tall, thick oaks. To the northwest, you can see a path leading to a small empty camp ground, while straight off to the west, you see a clearing and can hear the sound of gentle, running water. Back to the East is the parking lot, and a trail leading northeast connects you to the middle path.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>YES</changed>
+    <children>
+      <child nodeId="node-8"/>
+      <child nodeId="node-13"/>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Rock Clearing&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-9"/>
+    </children>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Left Path&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">parking lot&#x000A;It's a beautiful day in the middle of Autumn and you've decided to take a day trip to go hiking deep in the White Mountains of New Hampshire along the Kancamangus Highway. With the leaves slowly falling around you in vibrant shades of red, yellow, and orange, and the air crisp and chilly, you are excited to see that it is peak leaf season. You've parked your car in a small, dirt parking lot and have walked up to the entrance of a small batch of intertwining trails. From the entrance, you see you can either go forward to the north, left to the west, or right to the east.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Left Path&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">River&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">go north east</command>
+    <result xml:space="preserve">I only understood you as far as wanting to go north.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">go northeast</command>
+    <result xml:space="preserve">Middle Path&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">go southwest</command>
+    <result xml:space="preserve">Left Path&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Camp Grounds&#x000A;You can see an empty campsite (in which is a knife) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">take the knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Left Path&#x000A;You walk into the western most trail in the area and see that you are surrounded by many tall, thick oaks. To the northwest, you can see a path leading to a small empty camp ground, while straight off to the west, you see a clearing and can hear the sound of gentle, running water. Back to the East is the parking lot, and a trail leading northeast connects you to the middle path.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">parking lot&#x000A;It's a beautiful day in the middle of Autumn and you've decided to take a day trip to go hiking deep in the White Mountains of New Hampshire along the Kancamangus Highway. With the leaves slowly falling around you in vibrant shades of red, yellow, and orange, and the air crisp and chilly, you are excited to see that it is peak leaf season. You've parked your car in a small, dirt parking lot and have walked up to the entrance of a small batch of intertwining trails. From the entrance, you see you can either go forward to the north, left to the west, or right to the east. There is also a box at the entrance labled "Map".&#x000A;&#x000A;You can see a box (in which is a map) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Right Path&#x000A;You walk into the eastern most path and are delighted to see that this path is lined with beautiful, baby birch trees. You can hear the sounds of many birds flying in the trees above you. Off to the northeast, through the gaps between the trees, you can see what appears to be a trail leading towards a wide, open field. Then, branching off to the southwest, you see a sign with nothing on it but a picture of a tree. This must be the path towards that famously large tree! And of course, back to the west is the parking lot that you came from, as well as a path connecting to the middle trail to the northwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Tree&#x000A;As you continue along the trail, you finally reach the locally-famous giant tree! It's an unusually large birch tree growing admist its much smaller brethern. You walk around the tree and stand back to really appreciate its glory and its gorgeous, golden leaves from just the right angle when you notice what looks like a small silver chest glinting in the sunlight. It seems to be popping out from the side of its trunk a few branches up, as if the tree had grown around it and taken it up as it grew.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">go up</command>
+    <result xml:space="preserve">Tree Branches&#x000A;You find a way to climb the branches up to the small silver box. It looks pretty lodged into the tree trunk.&#x000A;&#x000A; You think to yourself that you could use your knife to get the chest out of the tree trunk &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">take the silver chest</command>
+    <result xml:space="preserve">You use the knife to carefully pry the chest from the tree, but it looks like you'll need a key to open it. &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">Tree&#x000A;As you continue along the trail, you finally reach the locally-famous giant tree! It's an unusually large birch tree growing admist its much smaller brethern. You walk around the tree and stand back to really appreciate its glory and its gorgeous, golden leaves from just the right angle when you notice what looks like a small silver chest glinting in the sunlight. It seems to be popping out from the side of its trunk a few branches up, as if the tree had grown around it and taken it up as it grew.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">go northwest </command>
+    <result xml:space="preserve">Right Path&#x000A;You walk into the eastern most path and are delighted to see that this path is lined with beautiful, baby birch trees. You can hear the sounds of many birds flying in the trees above you. Off to the northeast, through the gaps between the trees, you can see what appears to be a trail leading towards a wide, open field. Then, branching off to the southwest, you see a sign with nothing on it but a picture of a tree. This must be the path towards that famously large tree! And of course, back to the west is the parking lot that you came from, as well as a path connecting to the middle trail to the northwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">parking lot&#x000A;It's a beautiful day in the middle of Autumn and you've decided to take a day trip to go hiking deep in the White Mountains of New Hampshire along the Kancamangus Highway. With the leaves slowly falling around you in vibrant shades of red, yellow, and orange, and the air crisp and chilly, you are excited to see that it is peak leaf season. You've parked your car in a small, dirt parking lot and have walked up to the entrance of a small batch of intertwining trails. From the entrance, you see you can either go forward to the north, left to the west, or right to the east. There is also a box at the entrance labled "Map".&#x000A;&#x000A;You can see a box (in which is a map) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Left Path&#x000A;You walk into the western most trail in the area and see that you are surrounded by many tall, thick oaks. To the northwest, you can see a path leading to a small empty camp ground, while straight off to the west, you see a clearing and can hear the sound of gentle, running water. Back to the East is the parking lot, and a trail leading northeast connects you to the middle path.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">River&#x000A;You walk up to shallow, calm river running through the forest. The water bubbles in and out of small streams weaving through the trees along the river's shores. You notice in a small patch of land in the middle of the shallows, something is glinting sunlight under the edge of a rock. You wouldn't have noticed it if it weren't for the bright afternoon sunlight being just at the right angle. Out of curiosity, you decide to wade through the water to take a closer look and upon closer inspection, it appears to be a particularly shiny key, constantly washed by the rising and falling of the river. It appears to be tied tightly to to a hole in the rock, but you think you can break the string.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">take the key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">unlock the silver chest with the shiny key</command>
+    <result xml:space="preserve">You unlock the silver chest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">open the silver chest</command>
+    <result xml:space="preserve">You open the chest to see that it contains an expensive looking ruby necklace and a large assortment of old photos that look like they were taken many years ago. These photos seem to be of a young couple, and appear to be very precious.  You wonder who this belongs to, but considering that it was grown into a tree, you assume that whoever it was that put it there, they must be long gone. You decide to keep the silver chest and everything in it, while thinking about whether or not you could sell some of it for profit. - You have found the normal ending!&#x000A;&#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">open the box</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-35"/>
+    </children>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">It isn't something you can open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">take map</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">take map</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-38"/>
+    </children>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">look at map</command>
+    <result xml:space="preserve">The map shows that there are three separate trails. In the left trail, there is a river and a camp grounds. In the middle trail, there is a bridge and a rock clearing with picinic tables. And finally, in the right trail, there is an open field and the ruins of an old house.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Middle Path&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">go southwest</command>
+    <result xml:space="preserve">Left Path&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">West River&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">Go East</command>
+    <result xml:space="preserve">Right Path&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">Go East</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">Go Southeast</command>
+    <result xml:space="preserve">Tree&#x000A;As you continue along the trail, you finally reach the locally famous massive tree! It's an unusually large birch tree growing admist its much smaller brethern. You walk around the tree and stand back to really appreciate its glory and its gorgeous, golden leaves from just the right angle when you notice what looks like a small silver chest glinting in the sunlight. It seems to be popping out from the side of its trunk a few branches up, as if the tree had grown around it and taken it up as it grew. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">Go Up</command>
+    <result xml:space="preserve">Tree Branches&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">Go Down</command>
+    <result xml:space="preserve">Tree&#x000A;As you continue along the trail, you finally reach the locally famous massive tree! It's an unusually large birch tree growing admist its much smaller brethern. You walk around the tree and stand back to really appreciate its glory and its gorgeous, golden leaves from just the right angle when you notice what looks like a small silver chest glinting in the sunlight. It seems to be popping out from the side of its trunk a few branches up, as if the tree had grown around it and taken it up as it grew. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">take the map</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a map&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">map</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">check map</command>
+    <result xml:space="preserve">The map shows that there are three separate trails. In the left trail, there is a river and a camp grounds. In the middle trail, there is a bridge and a rock clearing with picinic tables. And finally, in the right trail, there is an open field and a famously large tree.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Middle Path&#x000A;You walk into the northern most trail and are greeted with a beautiful, long wooden pedestrian bridge crossing over a branching river. Right beyond the end of the bridge, you can see a rocky clearing, and what appears to be a waterfall. As a final choice, there's a trail leading southwest to the left path, and a trail leading southeast to the right path. You take a moment to stand in the middle of the bridge and just look out into the beautiful foresty river around you as the leaves dance around you, falling from the trees. This is why you came out here today. Simply beautiful. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Rock Clearing&#x000A;You enter a large, rocky clearing sitting near a waterfall and overlooking the pools down below. In this area, you see a single picinic table covered in leaves, and behind that table, you can see an old hiker on his knees on the ground, seemingly looking for something... Purhaps I should ask the Old Hiker if he is okay...&#x000A;&#x000A;You can see an Old Hiker here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">Ask the Old Hiker if he is okay</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">map</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">take map</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">inspect map</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">check map</command>
+    <result xml:space="preserve">The map shows that there are three separate trails. In the left trail, there is a river and a camp grounds. In the middle trail, there is a bridge and a rock clearing with picinic tables. And finally, in the right trail, there is an open field and a famously large tree.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Middle Path&#x000A;You walk into the northern most trail and are greeted with a beautiful, long wooden pedestrian bridge crossing over a branching river. Right beyond the end of the bridge, you can see a rocky clearing, and what appears to be a waterfall. As a final choice, there's a trail leading southwest to the left path, and a trail leading southeast to the right path. You take a moment to stand in the middle of the bridge and just look out into the beautiful foresty river around you as the leaves dance around you, falling from the trees. This is why you came out here today. Simply beautiful. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Rock Clearing&#x000A;You enter a large, rocky clearing sitting near a waterfall and overlooking the pools down below. In this area, you see a single picinic table covered in leaves, and behind that table, you can see an old hiker on his knees on the ground, seemingly looking for something... Purhaps I should ask the Old Hiker if he is okay...&#x000A;&#x000A;You can see an Old Hiker here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">ask the old hiker if he is okay</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">ask the Old Hiker if he is okay</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">ask the Old Hiker</command>
+    <result xml:space="preserve">(for the map)&#x000A;(the Old Hiker first taking the map)&#x000A;The Old Hiker has better things to do.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a map&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">Ask the Old Hiker are you okay</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">Ask the Old Hiker "are you okay"</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">noth</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Middle Path&#x000A;You walk into the northern most trail and are greeted with a beautiful, long wooden pedestrian bridge crossing over a branching river. Right beyond the end of the bridge, you can see a rocky clearing, and what appears to be a waterfall. As a final choice, there's a trail leading southwest to the left path, and a trail leading southeast to the right path. You take a moment to stand in the middle of the bridge and just look out into the beautiful foresty river around you as the leaves dance around you, falling from the trees. This is why you came out here today. Simply beautiful. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Rock Clearing&#x000A;You enter a large, rocky clearing sitting near a waterfall and overlooking the pools down below. In this area, you see a single picinic table covered in leaves, and behind that table, you can see an old hiker on his knees on the ground, seemingly looking for something... Purhaps I should ask the Old Hiker if he is okay...&#x000A;&#x000A;You can see an Old Hiker here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">Ask the Old Hiker about health</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">Asl the Old Hiker about health</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">ask the old hiker about health</command>
+    <result xml:space="preserve">There is no reply.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">Go North</command>
+    <result xml:space="preserve">Middle Path&#x000A;You walk into the northern most trail and are greeted with a beautiful, long wooden pedestrian bridge crossing over a branching river. Right beyond the end of the bridge, you can see a rocky clearing, and what appears to be a waterfall. As a final choice, there's a trail leading southwest to the left path, and a trail leading southeast to the right path. You take a moment to stand in the middle of the bridge and just look out into the beautiful foresty river around you as the leaves dance around you, falling from the trees. This is why you came out here today. Simply beautiful. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">go North</command>
+    <result xml:space="preserve">Rock Clearing&#x000A;You enter a large, rocky clearing sitting near a waterfall and overlooking the pools down below. In this area, you see a single picinic table covered in leaves, and behind that table, you can see an old hiker on his knees on the ground, seemingly looking for something... Purhaps I should ask the Old Hiker if he is okay...&#x000A;&#x000A;You can see an Old Hiker here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">Ask the old hiker about heath</command>
+    <result xml:space="preserve">You walk up to Old Hiker and politely ask him if he's okay - you know, and old man being on the ground and all, a touch concerning - he looks up you, slightly embarrased and says "Hello! Yes, I'm doing alright. It's just that I'm looking for something that I hid around here a long time ago and I can't seem to remember where I put the key. I left it hidden and tied to a small hole in a big rock so it wouldn't go anywhere you see. It goes to a very import box of memories I hid here with my late wife, and I'd like to retrieve it like we always said we would back in our younger days..." You are moved by his story and offer to help the kind gentleman out. "Aw, that's so kind of you! I would really appretiate it, the old legs of mine aren't that great for hiking anymore. Call me Mr.Brown. To make this easier on both of us, why don't you just give me a call if you manage to find it! Thankfully I have a few old business cards in my wallet so you can call the number there. I don't know if you'll be able to find it or if it's even here anymore, but hey at least it's a bit of good fun, yes? Thank you again, so much! &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Middle Path&#x000A;You walk into the northern most trail and are greeted with a beautiful, long wooden pedestrian bridge crossing over a branching river. Right beyond the end of the bridge, you can see a rocky clearing, and what appears to be a waterfall. As a final choice, there's a trail leading southwest to the left path, and a trail leading southeast to the right path. You take a moment to stand in the middle of the bridge and just look out into the beautiful foresty river around you as the leaves dance around you, falling from the trees. This is why you came out here today. Simply beautiful. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Rock Clearing&#x000A;You enter a large, rocky clearing sitting near a waterfall and overlooking the pools down below. In this area, you see a single picinic table covered in leaves, and behind that table, you can see an old hiker on his knees on the ground, seemingly looking for something... Purhaps I should ask the Old Hiker if he is okay...&#x000A;&#x000A;You can see an Old Hiker here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">ask the old hiker if he is okay</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">ask the old hiker are you okay</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">Ask the Old Hiker if he is okay</command>
+    <result xml:space="preserve">I didn't understand that sentence.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">Ask the Old Hiker about if he is okay</command>
+    <result xml:space="preserve">You walk up to Old Hiker and politely ask him if he's okay - you know, and old man being on the ground and all, a touch concerning - he looks up you, slightly embarrased and says "Hello! Yes, I'm doing alright. It's just that I'm looking for something that I hid around here a long time ago and I can't seem to remember where I put the key. I left it hidden and tied to a small hole in a big rock so it wouldn't go anywhere you see. It goes to a very import box of memories I hid here with my late wife, and I'd like to retrieve it like we always said we would back in our younger days..." You are moved by his story and offer to help the kind gentleman out. "Aw, that's so kind of you! I would really appretiate it, the old legs of mine aren't that great for hiking anymore. Call me Mr.Brown. To make this easier on both of us, why don't you just give me a call if you manage to find it! Thankfully I have a few old business cards in my wallet so you can call the number there. I don't know if you'll be able to find it or if it's even here anymore, but hey at least it's a bit of good fun, yes? Thank you again, so much! &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a phone number&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Middle Path&#x000A;You walk into the northern most trail and are greeted with a beautiful, long wooden pedestrian bridge crossing over a branching river. Right beyond the end of the bridge, you can see a rocky clearing, and what appears to be a waterfall. As a final choice, there's a trail leading southwest to the left path, and a trail leading southeast to the right path. You take a moment to stand in the middle of the bridge and just look out into the beautiful foresty river around you as the leaves dance around you, falling from the trees. This is why you came out here today. Simply beautiful. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">go southwest</command>
+    <result xml:space="preserve">Left Path&#x000A;You walk into the western most trail in the area and see that you are surrounded by many tall, thick oaks. To the northwest, you can see a path leading to a small empty camp ground, while straight off to the west, you see a clearing and can hear the sound of gentle, running water. Back to the East is the parking lot, and a trail leading northeast connects you to the middle path.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">West River&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">Go west</command>
+    <result xml:space="preserve">Left Path&#x000A;You walk into the western most trail in the area and see that you are surrounded by many tall, thick oaks. To the northwest, you can see a path leading to a small empty camp ground, while straight off to the west, you see a clearing and can hear the sound of gentle, running water. Back to the East is the parking lot, and a trail leading northeast connects you to the middle path.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">River&#x000A;You walk up to shallow, calm river running through the forest. The water bubbles in and out of small streams weaving through the trees along the river's shores. You notice in a small patch of land in the middle of the shallows, something is glinting sunlight under the edge of a rock. You wouldn't have noticed it if it weren't for the bright afternoon sunlight being just at the right angle. Out of curiosity, you decide to wade through the water to take a closer look and upon closer inspection, it appears to be a particularly shiny key, constantly washed by the rising and falling of the river. It appears to be tied tightly to to a hole in the rock, but you think you can break the string.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying nothing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">take the shiny key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a Shiny Key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Left Path&#x000A;You walk into the western most trail in the area and see that you are surrounded by many tall, thick oaks. To the northwest, you can see a path leading to a small empty camp ground, while straight off to the west, you see a clearing and can hear the sound of gentle, running water. Back to the East is the parking lot, and a trail leading northeast connects you to the middle path.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">go northeast</command>
+    <result xml:space="preserve">Middle Path&#x000A;You walk into the northern most trail and are greeted with a beautiful, long wooden pedestrian bridge crossing over a branching river. Right beyond the end of the bridge, you can see a rocky clearing, and what appears to be a waterfall. As a final choice, there's a trail leading southwest to the left path, and a trail leading southeast to the right path. You take a moment to stand in the middle of the bridge and just look out into the beautiful foresty river around you as the leaves dance around you, falling from the trees. This is why you came out here today. Simply beautiful. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Rock Clearing&#x000A;You enter a large, rocky clearing sitting near a waterfall and overlooking the pools down below. In this area, you see a single picinic table covered in leaves, and behind that table, you can see an old hiker on his knees on the ground, seemingly looking for something... Perhaps I should ask the Old Hiker about if he is okay...&#x000A;&#x000A;You can see an Old Hiker here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">ask the old hiker about if he is okay</command>
+    <result xml:space="preserve">You walk up to Old Hiker and politely ask him if he's okay - you know, and old man being on the ground and all, a touch concerning - he looks up you, slightly embarrased and says "Hello! Yes, I'm doing alright. It's just that I'm looking for something that I hid around here a long time ago and I can't seem to remember where I put the key. I left it hidden and tied to a small hole in a big rock so it wouldn't go anywhere you see. It goes to a very import box of memories I hid here with my late wife, and I'd like to retrieve it like we always said we would back in our younger days..." You are moved by his story and offer to help the kind gentleman out. "Aw, that's so kind of you! I would really appretiate it, the old legs of mine aren't that great for hiking anymore. Call me Mr.Brown. To make this easier on both of us, why don't you just give me a call if you manage to find it! Thankfully I have a few old business cards in my wallet so you can call the number there. I don't know if you'll be able to find it or if it's even here anymore, but hey at least it's a bit of good fun, yes? Thank you again, so much! &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a phone number&#x000A;  a Shiny Key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Middle Path&#x000A;You walk into the northern most trail and are greeted with a beautiful, long wooden pedestrian bridge crossing over a branching river. Right beyond the end of the bridge, you can see a rocky clearing, and what appears to be a waterfall. As a final choice, there's a trail leading southwest to the left path, and a trail leading southeast to the right path. You take a moment to stand in the middle of the bridge and just look out into the beautiful foresty river around you as the leaves dance around you, falling from the trees. This is why you came out here today. Simply beautiful. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Right Path&#x000A;You walk into the eastern most path and are delighted to see that this path is lined with beautiful, baby birch trees. You can hear the sounds of many birds flying in the trees above you. Off to the northeast, through the gaps between the trees, you can see what appears to be a trail leading towards a wide, open field. Then, branching off to the southwest, you see a sign with nothing on it but a picture of a tree. This must be the path towards that famously large tree! And of course, back to the west is the parking lot that you came from, as well as a path connecting to the middle trail to the northwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Tree&#x000A;As you continue along the trail, you finally reach the locally-famous giant tree! It's an unusually large birch tree growing admist its much smaller brethern. You walk around the tree and stand back to really appreciate its glory and its gorgeous, golden leaves from just the right angle when you notice what looks like a small silver chest glinting in the sunlight. It seems to be popping out from the side of its trunk a few branches up, as if the tree had grown around it and taken it up as it grew.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-98"/>
+    </children>
+  </item>
+  <item nodeId="node-98">
+    <command xml:space="preserve">go up</command>
+    <result xml:space="preserve">Tree Branches&#x000A;You find a way to climb the branches up to the small silver box. It looks pretty lodged into the tree trunk.&#x000A;&#x000A; it looks like you can get it out if you had something sharp... &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-99"/>
+    </children>
+  </item>
+  <item nodeId="node-99">
+    <command xml:space="preserve">go down</command>
+    <result xml:space="preserve">Tree&#x000A;As you continue along the trail, you finally reach the locally-famous giant tree! It's an unusually large birch tree growing admist its much smaller brethern. You walk around the tree and stand back to really appreciate its glory and its gorgeous, golden leaves from just the right angle when you notice what looks like a small silver chest glinting in the sunlight. It seems to be popping out from the side of its trunk a few branches up, as if the tree had grown around it and taken it up as it grew.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-100"/>
+    </children>
+  </item>
+  <item nodeId="node-100">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Right Path&#x000A;You walk into the eastern most path and are delighted to see that this path is lined with beautiful, baby birch trees. You can hear the sounds of many birds flying in the trees above you. Off to the northeast, through the gaps between the trees, you can see what appears to be a trail leading towards a wide, open field. Then, branching off to the southwest, you see a sign with nothing on it but a picture of a tree. This must be the path towards that famously large tree! And of course, back to the west is the parking lot that you came from, as well as a path connecting to the middle trail to the northwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-101"/>
+    </children>
+  </item>
+  <item nodeId="node-101">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">parking lot&#x000A;It's a beautiful day in the middle of Autumn and you've decided to take a day trip to go hiking deep in the White Mountains of New Hampshire along the Kancamangus Highway. With the leaves slowly falling around you in vibrant shades of red, yellow, and orange, and the air crisp and chilly, you are excited to see that it is peak leaf season. You've parked your car in a small, dirt parking lot and have walked up to the entrance of a small batch of intertwining trails. From the entrance, you see you can either go forward to the north, left to the west, or right to the east. There is also a box at the entrance labled "Map".&#x000A;&#x000A;You can see a box (in which is a map) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-102"/>
+    </children>
+  </item>
+  <item nodeId="node-102">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Left Path&#x000A;You walk into the western most trail in the area and see that you are surrounded by many tall, thick oaks. To the northwest, you can see a path leading to a small empty camp ground, while straight off to the west, you see a clearing and can hear the sound of gentle, running water. Back to the East is the parking lot, and a trail leading northeast connects you to the middle path.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-103"/>
+    </children>
+  </item>
+  <item nodeId="node-103">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Camp Grounds&#x000A;You can see an empty campsite (in which is a knife) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-104"/>
+    </children>
+  </item>
+  <item nodeId="node-104">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-105"/>
+    </children>
+  </item>
+  <item nodeId="node-105">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Left Path&#x000A;You walk into the western most trail in the area and see that you are surrounded by many tall, thick oaks. To the northwest, you can see a path leading to a small empty camp ground, while straight off to the west, you see a clearing and can hear the sound of gentle, running water. Back to the East is the parking lot, and a trail leading northeast connects you to the middle path.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-106"/>
+    </children>
+  </item>
+  <item nodeId="node-106">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">River&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-107"/>
+    </children>
+  </item>
+  <item nodeId="node-107">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Left Path&#x000A;You walk into the western most trail in the area and see that you are surrounded by many tall, thick oaks. To the northwest, you can see a path leading to a small empty camp ground, while straight off to the west, you see a clearing and can hear the sound of gentle, running water. Back to the East is the parking lot, and a trail leading northeast connects you to the middle path.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-108"/>
+    </children>
+  </item>
+  <item nodeId="node-108">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">parking lot&#x000A;It's a beautiful day in the middle of Autumn and you've decided to take a day trip to go hiking deep in the White Mountains of New Hampshire along the Kancamangus Highway. With the leaves slowly falling around you in vibrant shades of red, yellow, and orange, and the air crisp and chilly, you are excited to see that it is peak leaf season. You've parked your car in a small, dirt parking lot and have walked up to the entrance of a small batch of intertwining trails. From the entrance, you see you can either go forward to the north, left to the west, or right to the east. There is also a box at the entrance labled "Map".&#x000A;&#x000A;You can see a box (in which is a map) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-109"/>
+    </children>
+  </item>
+  <item nodeId="node-109">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Right Path&#x000A;You walk into the eastern most path and are delighted to see that this path is lined with beautiful, baby birch trees. You can hear the sounds of many birds flying in the trees above you. Off to the northeast, through the gaps between the trees, you can see what appears to be a trail leading towards a wide, open field. Then, branching off to the southwest, you see a sign with nothing on it but a picture of a tree. This must be the path towards that famously large tree! And of course, back to the west is the parking lot that you came from, as well as a path connecting to the middle trail to the northwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-110"/>
+    </children>
+  </item>
+  <item nodeId="node-110">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Tree&#x000A;As you continue along the trail, you finally reach the locally-famous giant tree! It's an unusually large birch tree growing admist its much smaller brethern. You walk around the tree and stand back to really appreciate its glory and its gorgeous, golden leaves from just the right angle when you notice what looks like a small silver chest glinting in the sunlight. It seems to be popping out from the side of its trunk a few branches up, as if the tree had grown around it and taken it up as it grew.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-111"/>
+    </children>
+  </item>
+  <item nodeId="node-111">
+    <command xml:space="preserve">go up</command>
+    <result xml:space="preserve">Tree Branches&#x000A;You find a way to climb the branches up to the small silver box. It looks pretty lodged into the tree trunk.&#x000A;&#x000A; You think to yourself that you could use your knife to get the chest out of the tree trunk &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-112"/>
+    </children>
+  </item>
+  <item nodeId="node-112">
+    <command xml:space="preserve">take the silver chest</command>
+    <result xml:space="preserve">You can use the knife to carefully pry the chest from the trunk of the tree. The silver chest has a lock on it that appears to match your shiny key!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-113"/>
+    </children>
+  </item>
+  <item nodeId="node-113">
+    <command xml:space="preserve">open the silver chest </command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-114"/>
+    </children>
+  </item>
+  <item nodeId="node-114">
+    <command xml:space="preserve">open the silver chest with the shiny key</command>
+    <result xml:space="preserve">That doesn't seem to fit the lock.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-115">
+    <command xml:space="preserve">go left</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-116"/>
+    </children>
+  </item>
+  <item nodeId="node-116">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">Left Path&#x000A;You walk into the western most trail in the area and see that you are surrounded by many tall, thick oaks. To the northwest, you can see a path leading to a small empty camp ground, while straight off to the west, you see a clearing and can hear the sound of gentle, running water. Back to the East is the parking lot, and a trail leading northeast connects you to the middle path.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-117"/>
+    </children>
+  </item>
+  <item nodeId="node-117">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">River&#x000A;You walk up to shallow, calm river running through the forest. The water bubbles in and out of small streams weaving through the trees along the river's shores. You notice in a small patch of land in the middle of the shallows, something is glinting sunlight under the edge of a rock. You wouldn't have noticed it if it weren't for the bright afternoon sunlight being just at the right angle. Out of curiosity, you decide to wade through the water to take a closer look and upon closer inspection, it appears to be a particularly shiny key, constantly washed by the rising and falling of the river. It appears to be tied tightly to to a hole in the rock, but you think you can break the string.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-118"/>
+    </children>
+  </item>
+  <item nodeId="node-118">
+    <command xml:space="preserve">take the shiny key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-119"/>
+    </children>
+  </item>
+  <item nodeId="node-119">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">Left Path&#x000A;You walk into the western most trail in the area and see that you are surrounded by many tall, thick oaks. To the northwest, you can see a path leading to a small empty camp ground, while straight off to the west, you see a clearing and can hear the sound of gentle, running water. Back to the East is the parking lot, and a trail leading northeast connects you to the middle path.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-120"/>
+    </children>
+  </item>
+  <item nodeId="node-120">
+    <command xml:space="preserve">go northwest</command>
+    <result xml:space="preserve">Camp Grounds&#x000A;You can see an empty campsite (in which is a knife) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-121"/>
+    </children>
+  </item>
+  <item nodeId="node-121">
+    <command xml:space="preserve">take knife</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-122"/>
+    </children>
+  </item>
+  <item nodeId="node-122">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Left Path&#x000A;You walk into the western most trail in the area and see that you are surrounded by many tall, thick oaks. To the northwest, you can see a path leading to a small empty camp ground, while straight off to the west, you see a clearing and can hear the sound of gentle, running water. Back to the East is the parking lot, and a trail leading northeast connects you to the middle path.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-123"/>
+    </children>
+  </item>
+  <item nodeId="node-123">
+    <command xml:space="preserve">go northeast</command>
+    <result xml:space="preserve">Middle Path&#x000A;You walk into the northern most trail and are greeted with a beautiful, long wooden pedestrian bridge crossing over a branching river. Right beyond the end of the bridge, you can see a rocky clearing, and what appears to be a waterfall. As a final choice, there's a trail leading southwest to the left path, and a trail leading southeast to the right path. You take a moment to stand in the middle of the bridge and just look out into the beautiful foresty river around you as the leaves dance around you, falling from the trees. This is why you came out here today. Simply beautiful. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-124"/>
+    </children>
+  </item>
+  <item nodeId="node-124">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">Rock Clearing&#x000A;You enter a large, rocky clearing sitting near a waterfall and overlooking the pools down below. In this area, you see a single picinic table covered in leaves, and behind that table, you can see an old hiker on his knees on the ground, seemingly looking for something... Perhaps I should ask the Old Hiker about if he is okay...&#x000A;&#x000A;You can see an Old Hiker here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-125"/>
+    </children>
+  </item>
+  <item nodeId="node-125">
+    <command xml:space="preserve">ask the old hiker about why he is on the ground</command>
+    <result xml:space="preserve">You walk up to Old Hiker and politely ask him if he's okay - you know, and old man being on the ground and all, a touch concerning - he looks up you, slightly embarrased and says "Hello! Yes, I'm doing alright. It's just that I'm looking for something that I hid around here a long time ago and I can't seem to remember where I put the key. I left it hidden and tied to a small hole in a big rock so it wouldn't go anywhere you see. It goes to a very import box of memories I hid here with my late wife, and I'd like to retrieve it like we always said we would back in our younger days..." You are moved by his story and offer to help the kind gentleman out. "Aw, that's so kind of you! I would really appretiate it, the old legs of mine aren't that great for hiking anymore. Call me Mr.Brown. To make this easier on both of us, why don't you just give me a call if you manage to find it! Thankfully I have a few old business cards in my wallet so you can call the number there. I don't know if you'll be able to find it or if it's even here anymore, but hey at least it's a bit of good fun, yes? Thank you again, so much! &#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-126"/>
+    </children>
+  </item>
+  <item nodeId="node-126">
+    <command xml:space="preserve">inventory</command>
+    <result xml:space="preserve">You are carrying:&#x000A;  a phone number&#x000A;  a knife&#x000A;  a Shiny Key&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-127"/>
+    </children>
+  </item>
+  <item nodeId="node-127">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">Middle Path&#x000A;You walk into the northern most trail and are greeted with a beautiful, long wooden pedestrian bridge crossing over a branching river. Right beyond the end of the bridge, you can see a rocky clearing, and what appears to be a waterfall. As a final choice, there's a trail leading southwest to the left path, and a trail leading southeast to the right path. You take a moment to stand in the middle of the bridge and just look out into the beautiful foresty river around you as the leaves dance around you, falling from the trees. This is why you came out here today. Simply beautiful. &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-128"/>
+    </children>
+  </item>
+  <item nodeId="node-128">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Right Path&#x000A;You walk into the eastern most path and are delighted to see that this path is lined with beautiful, baby birch trees. You can hear the sounds of many birds flying in the trees above you. Off to the northeast, through the gaps between the trees, you can see what appears to be a trail leading towards a wide, open field. Then, branching off to the southwest, you see a sign with nothing on it but a picture of a tree. This must be the path towards that famously large tree! And of course, back to the west is the parking lot that you came from, as well as a path connecting to the middle trail to the northwest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-129"/>
+    </children>
+  </item>
+  <item nodeId="node-129">
+    <command xml:space="preserve">go southeast</command>
+    <result xml:space="preserve">Tree&#x000A;As you continue along the trail, you finally reach the locally-famous giant tree! It's an unusually large birch tree growing admist its much smaller brethern. You walk around the tree and stand back to really appreciate its glory and its gorgeous, golden leaves from just the right angle when you notice what looks like a small silver chest glinting in the sunlight. It seems to be popping out from the side of its trunk a few branches up, as if the tree had grown around it and taken it up as it grew.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-130"/>
+    </children>
+  </item>
+  <item nodeId="node-130">
+    <command xml:space="preserve">go up</command>
+    <result xml:space="preserve">Tree Branches&#x000A;You find a way to climb the branches up to the small silver box. It looks pretty lodged into the tree trunk.&#x000A;&#x000A; You think to yourself that you could use your knife to get the chest out of the tree trunk &#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-131"/>
+    </children>
+  </item>
+  <item nodeId="node-131">
+    <command xml:space="preserve">take the silver chest</command>
+    <result xml:space="preserve">You successfully use the knife to carefully pry the chest from the trunk of the tree. The silver chest has a lock on it that appears to match your shiny key!&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-132"/>
+    </children>
+  </item>
+  <item nodeId="node-132">
+    <command xml:space="preserve">open the silver chest</command>
+    <result xml:space="preserve">It seems to be locked.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-133"/>
+    </children>
+  </item>
+  <item nodeId="node-133">
+    <command xml:space="preserve">open the silver chest with the shiny key</command>
+    <result xml:space="preserve">You unlock the silver chest.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-134"/>
+    </children>
+  </item>
+  <item nodeId="node-134">
+    <command xml:space="preserve">open the silver chest</command>
+    <result xml:space="preserve">You open the chest to see that it contains an expensive looking ruby necklace and a large assortment of old photos that look like they were taken many years ago. These photos seem to be of a young couple, and appear to be very precious.  "This must be what Mr. Brown was looking for! I should bring it to him!" you exclaim - You head off to go find the Old Hiker and return his old box of memories to him. You have found the complete ending! &#x000A;&#x000A;&#x000A;    *** The End ***&#x000A;&#x000A;&#x000A;&#x000A;&#x000A;Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>
