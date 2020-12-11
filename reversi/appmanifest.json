@@ -1,7 +1,7 @@
 {
-	"name": "Reversi",
-	"short_name": "Reversi",
-	"description": "",
+	"name": "Reversi Final",
+	"short_name": "Reversi Final",
+	"description": "“Welcome to the worlds of Reversi!\nWorlds? Yes, you heard that right! In this puzzle platformer, navigate your way through two different worlds - at the same time. Everything your character does, your ‘reversi’ does the opposite, but the worlds around them are not the same. Safely navigate both characters to the end of each level win!”\n",
 	"start_url": "index.html",
 	"display": "fullscreen",
 	"orientation": "landscape",
